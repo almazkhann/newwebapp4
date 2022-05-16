@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPage1.Pages.IndexModel
+@{
+    Layout = "_Layout";
+}
+<form class="myForm" method="post">
+    Your email<br />
+    <input type="text" name="email" placeholder="Email" /><br /><br />
+    Password<br />
+    <input type="password" name="pass" /><br /><br />
+    <input type="submit" value="login" /><br />
+</form>
+@Model.Messege 
